@@ -46,11 +46,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   frndlstbtn.addEventListener("click", function (){
       let nwlstitem = document.createElement("li");
-      let frndlst = document.getElementById("frndlst")
+      let frndlst = document.getElementById("frndlst");
       frndlst.appendChild(nwlstitem);
-      let textNode =document.createTextNode(frndArray[counter*length]);
+      let textNode =document.createTextNode(frndArray[counter]);
       nwlstitem.appendChild(textNode);
+      if (counter =< frndArray[i]){
       counter++;
+      };
+
   });
 
 

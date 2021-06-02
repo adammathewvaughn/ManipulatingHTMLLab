@@ -9,7 +9,7 @@ $(firstButton).click(function () {
 
 $("#hoverdiv").css("height","50px");
 $("#hoverdiv").mouseenter(function () {
-    $(this).css("background-color","blue"); //tried to combine 
+    $(this).css("background-color","blue"); 
 })
 $("#hoverdiv").mouseleave(function () {
     $(this).css("background-color",""); 
@@ -39,7 +39,9 @@ $('#divChanger').click(function(){
     let textNode = frndArray[counter];
     nwlstitem.append(textNode);
     nwlstitem.appendTo($("#frndlst"));
-    counter++; 
+    while (counter =< frndArray.length){
+        counter++;
+        };
 });
 
 
