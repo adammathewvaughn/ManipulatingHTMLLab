@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let nwlstitem = document.createElement("li");
       let frndlst = document.getElementById("frndlst")
       frndlst.appendChild(nwlstitem);
-      let textNode =document.createTextNode(frndArray[counter]);
+      let textNode =document.createTextNode(frndArray[counter*length]);
       nwlstitem.appendChild(textNode);
       counter++;
   });
