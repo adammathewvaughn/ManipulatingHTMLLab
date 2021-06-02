@@ -39,9 +39,9 @@ $('#divChanger').click(function(){
     let textNode = frndArray[counter];
     nwlstitem.append(textNode);
     nwlstitem.appendTo($("#frndlst"));
-    while (counter =< frndArray.length){
+    //while (counter =< frndArray.length){
         counter++;
-        };
+        //};
 });
 
 

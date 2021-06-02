@@ -50,9 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
       frndlst.appendChild(nwlstitem);
       let textNode =document.createTextNode(frndArray[counter]);
       nwlstitem.appendChild(textNode);
-      if (counter =< frndArray[i]){
+      //if (counter =< frndArray[i]){
       counter++;
-      };
+      //};
 
   });
 
